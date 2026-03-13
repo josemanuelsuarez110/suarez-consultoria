@@ -7,6 +7,7 @@ import Certifications from '@/components/sections/Certifications'
 import Methodology from '@/components/sections/Methodology'
 import Blog from '@/components/sections/Blog'
 import Contact from '@/components/sections/Contact'
+import Leadership from '@/components/sections/Leadership'
 import ChatAgent from '@/components/ui/ChatAgent'
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <About />
+      <Leadership />
       <Services />
       <Certifications />
       <Methodology />
