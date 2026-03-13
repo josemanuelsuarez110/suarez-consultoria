@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="white" stroke="black" stroke-width="4"/>
+  
+  <text x="600" y="120" font-size="40" text-anchor="middle" font-family="Arial" font-weight="bold">
+    CERTIFICADO
+  </text>
+  
+  <text x="600" y="200" font-size="24" text-anchor="middle" font-family="Arial">
+    Este certificado se otorga a
+  </text>
+  
+  <text x="600" y="250" font-size="32" text-anchor="middle" font-family="Arial" font-weight="bold">
+    Jose Manuel Suarez
+  </text>
+  
+  <text x="600" y="320" font-size="24" text-anchor="middle" font-family="Arial">
+    por completar con éxito
+  </text>
+  
+  <text x="600" y="370" font-size="28" text-anchor="middle" font-family="Arial" font-weight="bold">
+    Introducción a la Ciberseguridad
+  </text>
+  
+  <text x="600" y="430" font-size="22" text-anchor="middle" font-family="Arial">
+    ofrecido por Networking Academy
+  </text>
+  
+  <text x="600" y="470" font-size="22" text-anchor="middle" font-family="Arial">
+    a través del programa Cisco Networking Academy
+  </text>
+  
+  <text x="200" y="650" font-size="20" font-family="Arial">
+    Lynn Bloomer
+  </text>
+  
+  <text x="200" y="680" font-size="18" font-family="Arial">
+    Directora, Cisco Networking Academy
+  </text>
+  
+  <text x="900" y="680" font-size="18" text-anchor="end" font-family="Arial">
+    23 Feb 2026
+  </text>
+</svg>

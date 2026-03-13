@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f0fdf4; /* Very light green */
+  --foreground: #064e3b; /* Deep emerald */
+  
+  --primary: #064e3b; /* Deep emerald */
+  --primary-foreground: #ffffff;
+  
+  --secondary: #065f46; /* Slightly lighter emerald */
+  --secondary-foreground: #f0fdf4;
+  
+  --accent: #10b981; /* Vibrant emerald green */
+  --accent-foreground: #ffffff;
+  
+  --muted: #64748b;
+  --muted-foreground: #f0fdf4;
+  
+  --card: #ffffff;
+  --card-foreground: #064e3b;
+  
+  --border: #d1fae5;
+}
+
+@theme inline {
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-border: var(--border);
+  
+  --font-sans: 'Outfit', 'Inter', system-ui, sans-serif;
+}
+
+* {
+  border-color: var(--border);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.glass-dark {
+  background: rgba(10, 25, 47, 0.8);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}

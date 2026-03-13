@@ -1,0 +1,27 @@
+import Navbar from '@/components/layout/Navbar'
+import Footer from '@/components/layout/Footer'
+import Hero from '@/components/sections/Hero'
+import About from '@/components/sections/About'
+import Services from '@/components/sections/Services'
+import Certifications from '@/components/sections/Certifications'
+import Methodology from '@/components/sections/Methodology'
+import Blog from '@/components/sections/Blog'
+import Contact from '@/components/sections/Contact'
+import ChatAgent from '@/components/ui/ChatAgent'
+
+export default function Home() {
+  return (
+    <main className="relative min-h-screen bg-white">
+      <Navbar />
+      <Hero />
+      <About />
+      <Services />
+      <Certifications />
+      <Methodology />
+      <Blog />
+      <Contact />
+      <ChatAgent />
+      <Footer />
+    </main>
+  )
+}
