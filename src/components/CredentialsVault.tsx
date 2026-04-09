@@ -30,7 +30,8 @@ const certifications = [
   { title: "Flujo de Caja", issuer: "HP LIFE Foundation", status: "Análisis Financiero", type: "Finanzas", fileUrl: "/diplomas/Flujo de Caja_1.jpg" },
 
   // FORMACIÓN ACADÉMICA
-  { title: "Licenciatura en Contabilidad", issuer: "Universidad Federico Henríquez y Carvajal", status: "Suma Cum Laude", type: "Academia", fileUrl: "/diplomas/universidad_apec.pdf" }
+  { title: "Ingeniero en Sistemas de Información", issuer: "Universidad APEC", status: "Graduado", type: "Academia", fileUrl: "/diplomas/universidad_apec.pdf" },
+  { title: "Licenciatura en Contabilidad", issuer: "Universidad Federico Henríquez y Carvajal", status: "Suma Cum Laude", type: "Academia", fileUrl: "/diplomas/titulo_contabilidad_jose_suarez.pdf" }
 ]
 
 export const CredentialsVault = () => {

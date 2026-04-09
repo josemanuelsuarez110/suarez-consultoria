@@ -16,9 +16,12 @@ export const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center pt-20">
           <div className="text-left space-y-8">
             <Reveal>
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 backdrop-blur-md">
-                <span className="flex h-2 w-2 rounded-full bg-cyber-blue animate-pulse" />
-                <span className="text-sm font-bold tracking-wider text-slate-300 uppercase">Consultoría de Élite ISO 27001</span>
+              <div className="space-y-2">
+                <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 backdrop-blur-md">
+                  <span className="flex h-2 w-2 rounded-full bg-cyber-blue animate-pulse" />
+                  <span className="text-sm font-bold tracking-wider text-slate-300 uppercase">Consultoría de Élite ISO 27001</span>
+                </div>
+                <div className="text-cyber-blue font-black tracking-widest text-xs uppercase ml-1">ING. JOSÉ MANUEL SUÁREZ</div>
               </div>
             </Reveal>
 
@@ -33,7 +36,7 @@ export const Hero = () => {
 
             <Reveal delay={0.2}>
               <p className="max-w-xl text-lg md:text-xl text-slate-400 leading-relaxed">
-                Ejecutivo senior fusionando la <span className="text-white font-bold">Ciberdefensa</span> con la <span className="text-white font-bold">Estrategia Financiera</span>. Más de 10 años optimizando infraestructuras críticas mediante IA y estándares internacionales.
+                Ingeniero en Sistemas de Información y estratega financiero fusionando la <span className="text-white font-bold">Ciberdefensa</span> con estándares de <span className="text-white font-bold">Cumplimiento Global</span>. Más de 10 años optimizando infraestructuras mediante IA y auditoría continua.
               </p>
             </Reveal>
 

@@ -17,8 +17,8 @@ export const Leadership = () => {
                 className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
               />
               <div className="absolute bottom-0 left-0 right-0 p-8 bg-gradient-to-t from-slate-950 to-transparent">
-                <div className="text-2xl font-black text-white">JOSÉ MANUEL SUÁREZ</div>
-                <div className="text-cyber-blue font-bold tracking-widest text-xs uppercase">Founder & CEO</div>
+                <div className="text-2xl font-black text-white uppercase tracking-tighter">ING. JOSÉ MANUEL SUÁREZ</div>
+                <div className="text-cyber-blue font-bold tracking-[0.2em] text-[10px] uppercase">Founder & Leading Consultant</div>
               </div>
             </div>
           </div>
@@ -32,7 +32,7 @@ export const Leadership = () => {
                 <span className="text-cyber-blue">Integridad Digital.</span>
               </h2>
               <p className="text-slate-400 text-lg leading-relaxed">
-                "Mi visión es transformar la complejidad de la infraestructura tecnológica en claridad estratégica para el negocio. No solo protegemos datos; protegemos la continuidad y el futuro de su organización."
+                "Como Ingeniero en Sistemas y estratega financiero, mi visión es transformar la complejidad tecnológica en claridad estratégica. No solo protegemos datos;blindamos el futuro de su organización mediante una infraestructura resiliente y cumplimiento riguroso."
               </p>
             </div>
           </Reveal>
