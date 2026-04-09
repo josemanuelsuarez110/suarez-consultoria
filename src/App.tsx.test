@@ -1,0 +1,12 @@
+import React from 'react'
+
+function App() {
+  return (
+    <div style={{ background: '#020617', color: 'white', height: '100vh', display: 'flex', alignItems: 'center', justifyCenter: 'center', textAlign: 'center' }}>
+      <h1>José Manuel Suárez | Consultoría Élite</h1>
+      <p>Si ves esto, React está funcionando. Cargando componentes...</p>
+    </div>
+  )
+}
+
+export default App
