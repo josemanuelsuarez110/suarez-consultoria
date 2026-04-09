@@ -1,5 +1,5 @@
-# SUAREZ | Consultoría & Asesoría Estratégica
-> **Liderazgo en Ciberseguridad e Infraestructura Financiera de Élite.**
+# SUAREZ | Executive Cyber-Finance Platform
+> **Elite Authority in Cybersecurity & Strategic Financial Infrastructure.**
 
 ![Hero Screenshot](https://raw.githubusercontent.com/josemanuelsuarez110/jose-premium-portfolio/main/public/images/jose_suit.jpg)
 
